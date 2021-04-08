@@ -26,6 +26,10 @@
     "react-native-icon-gradient",
     "react-native-gradient-icon"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venishpatidar/react-native-gradient-icon.git"
+  },
   "author": "Venish Patidar",
   "license": "MIT",
   "dependencies": {
