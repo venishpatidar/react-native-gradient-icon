@@ -1,5 +1,5 @@
 ## react-native-gradient-icon
----
+
 <br />
 <img src="https://github.com/venishpatidar/react-native-gradient-icon/blob/master/screenshot/visual.jpg?raw=true" width="360">
 
