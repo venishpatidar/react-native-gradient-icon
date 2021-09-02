@@ -26,20 +26,20 @@ export type iconType =
 | string;
 
 const iconTypes:object={
-    'feather':require('react-native-vector-icons/Feather').default,
-    'zocial':require('react-native-vector-icons/Zocial').default,
-    'octicon':require('react-native-vector-icons/Octicons').default,
-    'material':require('react-native-vector-icons/MaterialIcons').default,
-    'material-community':require('react-native-vector-icons/Feather').default,
-    'ionicon':require('react-native-vector-icons/Ionicons').default,
-    'foundation':require('react-native-vector-icons/Foundation').default,
-    'evilicon':require('react-native-vector-icons/EvilIcons').default,
+    'antdesign':require('react-native-vector-icons/AntDesign').default,
     'entypo':require('react-native-vector-icons/Entypo').default,
+    'evilicon':require('react-native-vector-icons/EvilIcons').default,
+    'feather':require('react-native-vector-icons/Feather').default,
     'font-awesome':require('react-native-vector-icons/FontAwesome').default,
     'font-awesome-5':require('react-native-vector-icons/FontAwesome5').default,
-    'simple-line-icon':require('react-native-vector-icons/SimpleLineIcons').default,
-    'antdesign':require('react-native-vector-icons/AntDesign').default,
     'fontisto':require('react-native-vector-icons/Fontisto').default,
+    'foundation':require('react-native-vector-icons/Foundation').default,
+    'ionicon':require('react-native-vector-icons/Ionicons').default,
+    'material':require('react-native-vector-icons/MaterialIcons').default,
+    'material-community':require('react-native-vector-icons/MaterialCommunityIcons').default,
+    'octicon':require('react-native-vector-icons/Octicons').default,
+    'zocial':require('react-native-vector-icons/Zocial').default,
+    'simple-line-icon':require('react-native-vector-icons/SimpleLineIcons').default,
 }
 
 export type colorProps = {

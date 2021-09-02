@@ -75,20 +75,20 @@ import { Icon } from 'react-native-gradient-icon';
 ```
 ## Icon types
 <ul>
-<li>feather</li>
-<li>zocial</li>
-<li>octicon</li>
-<li>material</li>
-<li>material-community</li>
-<li>ionicon</li>
-<li>foundation</li>
-<li>evilicon</li>
+<li>antdesign</li>
 <li>entypo</li>
+<li>evilicon</li>
+<li>feather</li>
 <li>font-awesome</li>
 <li>font-awesome-5</li>
-<li>simple-line-icon</li>
-<li>antdesign</li>
 <li>fontisto</li>
+<li>foundation</li>
+<li>ionicon</li>
+<li>material</li>
+<li>material-community</li>
+<li>octicon</li>
+<li>zocial</li>
+<li>simple-line-icon</li>
 </ul>
 
 Browse all icons [here](https://oblador.github.io/react-native-vector-icons/) .
