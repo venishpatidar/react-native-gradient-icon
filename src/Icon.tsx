@@ -6,7 +6,7 @@ import {
   ViewStyle,
   StyleProp,
 } from 'react-native';
-import MaskedView from '@react-native-community/masked-view'
+import MaskedView from '@react-native-masked-view/masked-view'
 import Svg, { Defs,RadialGradient,Stop,LinearGradient, Rect } from 'react-native-svg';
 
 export type iconType =
@@ -62,10 +62,12 @@ export type IconProps =   {
     color?:string;
     raised?: boolean;
     raisedColor?:string;
+    androidRenderingMode?:'software'|'hardware';
 };
 const Icon: React.FunctionComponent<IconProps> = (props) => {
     const {
         mode='linear',
+        androidRenderingMode='software',
         type,
         name,
         size=24,
@@ -98,6 +100,7 @@ const Icon: React.FunctionComponent<IconProps> = (props) => {
             raised && styles.raised,
             ])}>
             <MaskedView 
+                androidRenderingMode={androidRenderingMode}
                 style={{ height:size,width:size }}
                 maskElement={
                     <View style={{width:size,height:size,alignItems:'center'}}>
