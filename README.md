@@ -19,11 +19,11 @@ yarn add react-native-gradient-icon
 Don't forget to install dependencies
 Npm
 ```shell
-npm i --save @react-native-community/masked-view react-native-svg react-native-vector-icons
+npm i --save @react-native-masked-view/masked-view react-native-svg react-native-vector-icons
 ```
 Yarn
 ```shell
-yarn add @react-native-community/masked-view react-native-svg react-native-vector-icons
+yarn add @react-native-masked-view/masked-view react-native-svg react-native-vector-icons
 ```
 
 
